@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">更强的提醒</string>
+    <string name="choose_time">选择时间</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_add_task">新建提醒</string>
+
+    <string name="view_key_id">1</string>
+    <string name="state_key_id">2</string>
+
+  </resources>

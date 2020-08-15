@@ -1,0 +1,77 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="功能">
+
+        <SwitchPreference
+            android:key="feature_toast"
+            android:title="吐司提醒"
+            android:defaultValue="true"
+            />
+
+        <SwitchPreferenceCompat
+            android:key="feature_announcer"
+            android:title="通知提醒"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="feature_window"
+            android:title="悬浮窗提醒"
+            android:defaultValue="true" />
+        <SwitchPreferenceCompat
+            android:key="feature_vibrator"
+            android:title="振动提醒"
+            android:defaultValue="true" />
+
+        <Preference
+            android:title="更多功能正在开发">
+        </Preference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="功能设置">
+
+        <EditTextPreference
+            android:key="vibrating_time"
+            android:title="振动时长(毫秒)"
+            android:defaultValue="1000"
+            android:inputType="number">
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于">
+
+        <Preference
+            android:key="zuo_zhe"
+            android:title="作者"
+            android:summary="Soulter">
+            </Preference>
+        <Preference
+            android:key="qq_number"
+            android:title="QQ"
+            android:summary="905617992">
+        </Preference>
+        <!--<Preference-->
+            <!--android:key="donate"-->
+            <!--android:title="捐赠"-->
+            <!--android:summary="哪怕是0.01也可以呀qwq">-->
+        <!--</Preference>-->
+        <Preference
+            android:key="afdian"
+            android:title="我的爱发电网页"
+            android:summary="https://afdian.net/@soulter">
+        </Preference>
+        <Preference
+            android:key="update_check"
+            android:title="检查更新"
+            android:summary="请去酷安上检查更新哦">
+        </Preference>
+
+
+
+
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
